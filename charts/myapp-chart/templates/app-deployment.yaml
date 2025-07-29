@@ -24,10 +24,10 @@ spec:
                 name: myapp-config
             - secretRef:
                 name: myapp-secret
-          readinessProbe:
-            httpGet:
-              path: /healthz
-              port: 5000
+         # readinessProbe:
+           # httpGet:
+             # path: /healthz
+             # port: 5000
           resources:
             requests:
               memory: "32Mi"
