@@ -24,10 +24,10 @@ spec:
                 name: myapp-config
             - secretRef:
                 name: myapp-secret
-          readinessProbe:           # ✅ 수정된 들여쓰기
-            httpGet:
-              path: /healthz
-              port: 5000
+          # readinessProbe:           # ✅ 수정된 들여쓰기
+          #   httpGet:
+          #     path: /healthz
+          #     port: 5000
           resources:                # ✅ readinessProbe 외부로 이동
             requests:
               memory: "32Mi"
