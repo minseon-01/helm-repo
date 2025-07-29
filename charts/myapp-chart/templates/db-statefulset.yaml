@@ -20,9 +20,9 @@ spec:
             - containerPort: 3306
           envFrom:
             - secretRef:
-                name: cms-db-secret
+                name: db-secret
             - configMapRef:
-                name: cms-db-config
+                name: db-config
           volumeMounts:
             - name: mysql-persistent-storage
               mountPath: /var/lib/mysql
