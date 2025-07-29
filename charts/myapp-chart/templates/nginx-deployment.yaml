@@ -25,11 +25,11 @@ spec:
             - name: nginx-config-vol
               mountPath: /etc/nginx/nginx.conf
               subPath: nginx.conf
-           livenessProbe:
+          livenessProbe:
              httpGet:
                path: {{ .Values.nginx.healthPath }}
                port: 80
-           readinessProbe:
+          readinessProbe:
              httpGet:
                path: {{ .Values.nginx.healthPath }}
                port: 80
