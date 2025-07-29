@@ -10,7 +10,7 @@ redis:
 
 app:
   repository: public.ecr.aws/g1o9h9r6/cms-lab2
-  tag: app-v1
+  tag: version-2
   replicas: 2
 
 nginx:
