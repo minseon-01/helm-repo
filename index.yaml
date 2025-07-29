@@ -3,12 +3,12 @@ entries:
   myapp-chart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-07-29T03:09:53.911084054Z"
+    created: "2025-07-29T03:46:23.834688237Z"
     description: A Helm chart with image and replicas as variables
-    digest: 012ccfccdd93495a67b5f3b5e47a2b8f9b4c4ee0e8c68958a16d8f92d9edae70
+    digest: 5cb8c20a68677c35fe7509031afa72f3bfd6100707ccdebd7d0ff3c3f5abbbca
     name: myapp-chart
     type: application
     urls:
     - https://minseon-01.github.io/helm-repo/myapp-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-29T03:09:53.910622856Z"
+generated: "2025-07-29T03:46:23.833587939Z"
